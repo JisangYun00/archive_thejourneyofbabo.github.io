@@ -8,7 +8,8 @@ I'm an **Automotive Software Engineering** student at **`Hanyang University`**, 
 - Currently an intern at **AILAB** (Automotive Intelligence Laboratory)
 - Founder of **[[MiRu-"Automotive Software Group"|MiRu]]**, an Automotive Software project group within the faculty
 - Extensive international experience (Traveled to over 12 countries, Worked in Australia on a Working Holiday)
-- This journey is my way of **exploring, learning, and growing beyond boundaries**.
+- This journey is my way of **exploring, learning, and growing beyond boundaries**.  
+
 ![[The Journey of Babo Logo.jpg|500]]
 ## Good to see you all
 > Building my blog with [[Quartz-Blog]] - [[BaBrain]], my Second Brain.
