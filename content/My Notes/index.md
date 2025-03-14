@@ -24,6 +24,7 @@ longform:
     - Lab4_Follow_the_Gap
     - Rigid Body Transforms
     - MiRu-"Automotive Software Group"
+    - Linux Commands and Terminal Commands Summary
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
