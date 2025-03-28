@@ -10,9 +10,12 @@ aliases:
 > **Little different compare to F1Tenth Build methods. Clear line organization**
 
 ## Platform Board & 3D Model design with Onshape
+"Platfrom vesrsion 1"
 
 
 ![[F1Tenth Platform Board_V3.png]]
+"Platform version 2"_ made it concise and lower the board closer to the frame
+![[mirucar2_platform_design.png]]
 **Platform Board Design**
 ![[Hokuyo LiDAR + Camera Connector.png]]
 **Camera connector for Hokuyo LiDAR**

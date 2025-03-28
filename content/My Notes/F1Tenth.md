@@ -9,6 +9,7 @@ aliases:
 ## [F1Tenth Competition](https://roboracer.ai/)
 > 1/10th size RC Car for F1 Racing
 
+"First version of MiRu Car"
 ![[f1car.jpg]]
 
 > [!note]
