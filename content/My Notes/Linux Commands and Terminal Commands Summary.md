@@ -1,7 +1,8 @@
 ---
 title: Linux Commands and Terminal Commands Summary
 draft: false
-tags: 
+tags:
+  - "#linux"
 aliases:
 ---
 ## Basic Shell Concepts

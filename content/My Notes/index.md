@@ -25,6 +25,7 @@ longform:
     - Rigid Body Transforms
     - MiRu-"Automotive Software Group"
     - Linux Commands and Terminal Commands Summary
+    - 3DLiDAR - Livox Mid-360 setup
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
