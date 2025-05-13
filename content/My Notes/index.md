@@ -26,6 +26,9 @@ longform:
     - MiRu-"Automotive Software Group"
     - Linux Commands and Terminal Commands Summary
     - 3DLiDAR - Livox Mid-360 setup
+    - F1Tenth 3D LiDAR SLAM
+    - F1Tenth Build 2
+    - F1Tenth Build 3 (3D LiDAR - MID360)
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
