@@ -83,7 +83,12 @@ aliases:
 ## Result
 ![[mid360-rviz-img.png]]
 
+> [!note] Common Errors
+>  - [Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2/tree/master) Need to setup SDK
+>  - When point clouds not showing after all setup, checkout firewall setting for the ports
 
+ > [!tip]
+> - You can also change point clouds publish-frequency(publish_freq = 10.0 / 20.0 / 50.0 ...)
 
 ---
 ## Reference
