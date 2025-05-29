@@ -9,6 +9,7 @@ I'm an **Automotive Software Engineering** student at **`Hanyang University`**, 
 - Founder of **[[MiRu-"Automotive Software Group"|MiRu]]**, an Automotive Software project group within the faculty
 - Extensive international experience (Traveled to over 12 countries, Worked in Australia on a Working Holiday)
 - This journey is my way of **exploring, learning, and growing beyond boundaries**.  
+- More about me, [[About Me_ Jisang Yun]]
 
 ![[The Journey of Babo Logo.jpg|500]]
 ## Good to see you all

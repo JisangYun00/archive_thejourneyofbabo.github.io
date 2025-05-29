@@ -3,6 +3,7 @@ title: About Me_ Jisang Yun
 draft: false
 tags: 
 aliases:
+  - Resume
 ---
 # Jisang Yun
 
