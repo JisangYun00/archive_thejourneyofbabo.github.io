@@ -29,6 +29,7 @@ longform:
     - F1Tenth 3D LiDAR SLAM
     - F1Tenth Build 2
     - F1Tenth Build 3 (3D LiDAR - MID360)
+    - About Me_ Jisang Yun
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
