@@ -161,15 +161,14 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Strategic Impact:** Transformed long-term vision into reality, establishing foundation for large-scale project planning and execution within MiRu
 
-### 3D LiDAR Autonomous Robot
-
+### Autonomous Personal Training Robot System
 **Oct 2024 – Sep 2025** | Industry Collaboration with SOSLAB
 
-**Goal:** Commercial-grade autonomous robot for industrial indoor navigation
+**Goal:** Mobile robot with 3D LiDAR for intelligent fitness coaching and adaptive running pace guidance
 
-**Tech Stack:** SOSLAB ML-X LiDAR, ROS2, C++, Rust, Kalman Filter, PCL
+**Tech Stack:** SOSLAB ML-X LiDAR, ROS2, C++, Rust, SLAM, Motion Tracking, Path Planning
 
-**Focus:** Sensor fusion algorithms and robust SLAM implementation for warehouse environments
+**Focus:** Sensor fusion for simultaneous user tracking, autonomous following, and personalised exercise feedback
 
 ### Autonomous Vehicle Software | Team 5
 
