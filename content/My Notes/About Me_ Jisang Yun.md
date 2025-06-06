@@ -100,7 +100,7 @@ Cultural immersion program with Spanish language training
 
 ## Awards and Honors
 
-### Excellence Award | 2024 University Research Skills Competition
+### Excellence Award | 2024 University Joint Autonomous Driving Competition
 
 **July 2024** | National Competition
 
