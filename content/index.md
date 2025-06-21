@@ -26,4 +26,4 @@ I'm proud to be a _babo_—because being a "dummy" means embracing curiosity, st
 ### F1Tenth
 > [[F1Tenth]]  is the current project I'm working on since Dec. 2024 
 
-![[mirucar.jpg|250]]
+![[MiRuCar_3dlidar+cam_Photo_2025-05-16-12-52-58 006.jpeg|550]]

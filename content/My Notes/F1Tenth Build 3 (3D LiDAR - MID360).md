@@ -11,7 +11,8 @@ While we [[F1Tenth Build|build F1Tenth]] Car with 2D-Hokuyo LiDAR(10LX), we alre
 
 So we updated our car "MiRu Car1" with 3DLiDAR(Livox MID360) and gave Hokuyo LiDAR to "MiRu Car2"
 
-![[3dLiDAR-mirucar1 20250513103109.png]]
+![[MiRuCar_3dlidar+cam_Photo_2025-05-16-12-52-58 006.jpeg]]
+
 ![[3dLiDAR_SLAM_Photo_2025-05-13-10-29-49 002.jpeg]]
 
 ---

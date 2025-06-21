@@ -5,6 +5,7 @@ tags:
   - LiDAR
   - 3DLiDAR
 aliases:
+  - Livox Mid-360 setup
 ---
 ## [Livox Mid-360 3D LiDAR](https://www.livoxtech.com/mid-360)
 ![[mid360-3d-lidar.png|500]]
