@@ -30,6 +30,7 @@ longform:
     - F1Tenth Build 2
     - F1Tenth Build 3 (3D LiDAR - MID360)
     - About Me_ Jisang Yun
+    - ROS2 for Rust (rclrs) - System-wide Installation
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
