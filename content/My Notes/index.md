@@ -32,6 +32,7 @@ longform:
     - About Me_ Jisang Yun
     - ROS2 for Rust (rclrs) - System-wide Installation
     - Complete Terminal Setup Guide for Ubuntu
+    - F1Tenth Project Prerequisite
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
