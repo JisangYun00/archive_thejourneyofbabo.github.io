@@ -31,6 +31,7 @@ longform:
     - F1Tenth Build 3 (3D LiDAR - MID360)
     - About Me_ Jisang Yun
     - ROS2 for Rust (rclrs) - System-wide Installation
+    - Complete Terminal Setup Guide for Ubuntu
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
