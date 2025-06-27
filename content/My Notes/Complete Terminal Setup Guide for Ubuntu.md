@@ -53,10 +53,20 @@ plugins=(git sudo colored-man-pages zsh-syntax-highlighting zsh-autosuggestions 
 
 # ROS2 aliases
 alias cbr="colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release"
+alias cbrs="cbr --packages-skip"
 alias cbp="colcon build --packages-select"
 alias sor="source install/setup.zsh"
 alias rlt="ros2 topic list"
 alias rle="ros2 topic echo"
+alias rli="ros2 topic info"
+alias ril="ros2 interface list"
+alias rill="ros2 interface list | grep"
+alias rils="ros2 interface show"
+alias rpe="ros2 pkg executables"
+
+# System aliases
+alias sr="source ~/.zshrc"
+alias lz="lazygit"
 ```
 
 Apply changes: `source ~/.zshrc`
