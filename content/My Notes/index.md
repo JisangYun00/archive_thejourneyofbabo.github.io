@@ -33,6 +33,10 @@ longform:
     - ROS2 for Rust (rclrs) - System-wide Installation
     - Complete Terminal Setup Guide for Ubuntu
     - F1Tenth Project Prerequisite
+    - AILAB Summer Internship 2025
+    - AILAB Internship Week1
+    - AILAB Internship Week2
+    - AILAB Internship Week3
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
