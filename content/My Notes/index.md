@@ -37,6 +37,8 @@ longform:
     - AILAB Internship Week1
     - AILAB Internship Week2
     - AILAB Internship Week3
+    - C++ Access modifiers and references
+    - Getting started with PyTorch
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
