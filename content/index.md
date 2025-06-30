@@ -4,12 +4,17 @@ aliases:
   - Welcome to The Journey of Babo
 ---
 ## Hi there, I'm Jisang
-I'm an **Automotive Software Engineering** student at **`Hanyang University`**, passionate about tackling **`new challenges`** and solving **`complex problems`** at the intersection of **`Software`**, **`Robotics`**, **`AI`**, and **`Traveling`**.
-- Currently an intern at **AILAB** (Automotive Intelligence Laboratory)
+I'm an **Automotive Software Engineering** student at **`Hanyang University`**, passionate about tackling **`new challenges`** and solving **`complex problems`** at the intersection of **Software**, **Robotics**, **AI**, and **Travel**.
+
+**Current Activities:**
+- Undergraduate researcher at **AILAB** (Automotive Intelligence Laboratory) since January 2025
+- Currently participating in **[[AILAB Summer Internship 2025]].**
 - Founder of **[[MiRu-"Automotive Software Group"|MiRu]]**, an Automotive Software project group within the faculty
-- Extensive international experience (Traveled to over 12 countries, Worked in Australia on a Working Holiday)
-- This journey is my way of **exploring, learning, and growing beyond boundaries**.  
-- More about me, [[About Me_ Jisang Yun]]
+
+**Background:**
+- Extensive international experience: traveled to over 12 countries
+- Work experience in Australia on a Working Holiday visa
+- This journey represents my commitment to **exploring, learning, and growing beyond boundaries**. 
 
 ![[The Journey of Babo Logo.jpg|500]]
 ## Good to see you all
