@@ -44,6 +44,7 @@ longform:
     - Arrays, List and Vectors
     - Range Sum (or Prefix Sum)
     - Stack and Queue
+    - C++ Function overloading and overriding (new, delete)
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes

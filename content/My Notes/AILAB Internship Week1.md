@@ -17,7 +17,7 @@ aliases:
 
 **C++ Topics:**
 - Day 2: [[C++ Access modifiers and references|Access modifiers and references]]
-- Day 3: Function overloading and overriding (new, delete)
+- Day 3: [[C++ Function overloading and overriding (new, delete)|Function overloading and overriding (new, delete)]]
 - Day 4: Objects, constructors, class variables
 
 ### ML & Python Study

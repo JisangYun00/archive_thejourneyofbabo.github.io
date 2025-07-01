@@ -61,3 +61,7 @@ int main() {
   cout << A.at(5) << endl;
 }
 ```
+
+---
+## Next
+[[Range Sum (or Prefix Sum)]]
