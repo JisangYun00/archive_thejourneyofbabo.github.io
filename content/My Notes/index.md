@@ -45,6 +45,7 @@ longform:
     - Range Sum (or Prefix Sum)
     - Stack and Queue
     - C++ Function overloading and overriding (new, delete)
+    - Course 1_ Neural Networks and Deep Learning
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
