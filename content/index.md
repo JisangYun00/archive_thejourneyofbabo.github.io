@@ -4,7 +4,7 @@ aliases:
   - Welcome to The Journey of Babo
 ---
 ## Hi there, I'm Jisang
-I'm an **Automotive Software Engineering** student at **`Hanyang University`**, passionate about tackling **`new challenges`** and solving **`complex problems`** at the intersection of **Software**, **Robotics**, **AI**, and **Travel**.
+I'm an **Automotive Software Engineering** student at **`Hanyang University`**, passionate about tackling **`new challenges`** and solving **`complex problems`** at the intersection of **Software**, **Robotics**, **AI**, and **Travel**. More details, you can find out from [[About Me_ Jisang Yun]]
 
 **Current Activities:**
 - Undergraduate researcher at **AILAB** (Automotive Intelligence Laboratory) since January 2025
