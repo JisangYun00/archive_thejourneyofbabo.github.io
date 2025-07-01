@@ -9,7 +9,9 @@ aliases:
 ## Week 1 (June 30 - July 4)
 ### C++ Study & Algorithm Study
 **Algorithm Topics:**
+- [[Algorithm Basics]]
 - Debug, map, list, grid, vector, stack, queue
+	- [[Debug (C++)]]
 
 **C++ Topics:**
 - Day 2: [[C++ Access modifiers and references|Access modifiers and references]]

@@ -39,6 +39,8 @@ longform:
     - AILAB Internship Week3
     - C++ Access modifiers and references
     - Getting started with PyTorch
+    - Algorithm Basics
+    - Debug (C++)
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
