@@ -39,8 +39,11 @@ longform:
     - AILAB Internship Week3
     - C++ Access modifiers and references
     - Getting started with PyTorch
-    - Algorithm Basics
+    - Algorithm Basics - Time Complexity
     - Debug (C++)
+    - Arrays, List and Vectors
+    - Range Sum (or Prefix Sum)
+    - Stack and Queue
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
