@@ -406,6 +406,76 @@ This shows how to measure and minimize the error in logistic regression.
 
 **Problem**: This creates a **non-convex** cost function (wavy with multiple local minima) when combined with sigmoid. Hard to optimize!
 
+---
+
+# Gradient Derivation for Logistic Regression with Squared Error
+
+## Overview
+This explains why the gradient ∇_w J contains the terms (ŷ - y) and x when using **squared error loss** with **sigmoid activation**.
+
+## The Chain Rule Breakdown
+For J(w) = ½(ŷ - y)² and ŷ = σ(w^T x), we use the chain rule:
+```
+∇_w J = ∂J/∂ŷ × ∂ŷ/∂z × ∂z/∂w
+```
+where z = w^T x (the linear combination before sigmoid).
+
+## Three Key Components
+### 1. Error Term: ∂J/∂ŷ = (ŷ - y)
+- **From**: Squared error loss J = ½(ŷ - y)²
+- **Meaning**: How wrong is our prediction?
+- **Example**: If ŷ = 0.9 and y = 1, error = -0.1
+
+### 2. Sigmoid Derivative: ∂ŷ/∂z = ŷ(1 - ŷ)
+- **From**: Sigmoid function ŷ = σ(z) = 1/(1 + e^(-z))
+- **Meaning**: How "adjustable" is our current prediction?
+- **Key insight**:
+    - Maximum when ŷ = 0.5 (most adjustable)
+    - Minimum when ŷ ≈ 0 or ŷ ≈ 1 (least adjustable)
+### 3. Input Features: ∂z/∂w = x
+- **From**: Linear layer z = w^T x
+- **Meaning**: Which input features contributed to the error?
+- **Purpose**: Determines how much to adjust each weight
+
+## Final Gradient Formula
+```
+∇_w J = (ŷ - y) × ŷ(1 - ŷ) × x
+         ↑        ↑         ↑
+      Error   Sigmoid    Input
+              derivative features
+```
+
+## Why Each Term Matters
+
+|Term|Origin|Role|
+|---|---|---|
+|(ŷ - y)|Loss function|Measures prediction error|
+|ŷ(1 - ŷ)|Sigmoid derivative|Controls update sensitivity|
+|x|Linear layer|Identifies which features to adjust|
+
+## The Problem with Sigmoid Derivative
+The ŷ(1 - ŷ) term creates issues:
+- **Vanishing gradients**: When ŷ ≈ 0 or ŷ ≈ 1, gradient ≈ 0
+- **Slow learning**: Updates become very small near certainty
+
+## Why Cross-Entropy is Better
+Cross-entropy loss eliminates the problematic ŷ(1 - ŷ) term, giving:
+```
+∇_w J = (ŷ - y) × x
+```
+
+This provides:
+- **Stable gradients** regardless of prediction confidence
+- **Faster convergence**
+- **No vanishing gradient problem**
+
+## Key Takeaway
+The terms (ŷ - y) and x arise naturally from the chain rule:
+- **(ŷ - y)** comes from differentiating the loss function
+- **x** comes from the linear transformation w^T x
+- The sigmoid derivative ŷ(1 - ŷ) is the "bottleneck" that causes training difficulties
+
+---
 ## The Logistic Loss Function
 **L(ŷ,y) = -[y log ŷ + (1-y) log(1-ŷ)]**
 
