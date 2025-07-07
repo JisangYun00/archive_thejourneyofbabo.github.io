@@ -16,9 +16,11 @@ aliases:
 - [[Stack and Queue]]
 
 **C++ Topics:**
-- Day 2: [[C++ Access modifiers and references|Access modifiers and references]]
-- Day 3: [[C++ Function overloading and overriding (new, delete)|Function overloading and overriding (new, delete)]]
-- Day 4: Objects, constructors, class variables
+- Chapter 2: [[C++ Access modifiers and references|Access modifiers and references]]
+- Chapter 3: [[C++ Function overloading and overriding (new, delete)|Function overloading and overriding (new, delete)]]
+- Chapter 4: Objects, constructors, class variables
+	- [[C++ 4-1. The world is made of objects|4-1. The world is made of objects]]
+	- 
 
 ### ML & Python Study
 **Deep Learning:**

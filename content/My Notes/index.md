@@ -46,6 +46,12 @@ longform:
     - Stack and Queue
     - C++ Function overloading and overriding (new, delete)
     - Course 1_ Neural Networks and Deep Learning
+    - C++ 4-1. The world is made of objects
+    - C++ 4-2. Function Overloading
+    - C++ 4-3. Lets make Starcraft-1
+    - C++ 4-4. Lets make Starcraft-2
+    - C++ 4-5. The String class I created
+    - C++ 4-6. Explicit and mutable keywords in classes
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
