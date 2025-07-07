@@ -25,3 +25,10 @@ C++ fundamentals (data structures, OOP concepts) and algorithm study, plus deep 
 Advanced algorithms (sorting, BFS/DFS, greedy) and C++ inheritance/STL containers, plus convolutional neural networks with ResNets and PyTorch tutorials.
 ### [[AILAB Internship Week3|Week 3]] (July 14 - July 18)
 C++ concurrency (threads/mutex) and smart pointers with tree algorithms, plus deep RNNs and complete ML pipeline implementation for image classification evaluation, including coding test preparation.
+
+---
+## Extra Learning Materials
+### Deep learning
+- [Lecture Summary Note](https://github.com/mbadry1/DeepLearning.ai-Summary/tree/master/2-%20Improving%20Deep%20Neural%20Networks)
+- [Coursera Deep Learning Specialization Notes](https://iamirmasoud.com/2023/03/26/coursera-deep-learning-specialization-notes/)
+- 
