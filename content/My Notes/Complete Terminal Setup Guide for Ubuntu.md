@@ -51,6 +51,10 @@ ZSH_THEME="af-magic"
 # Plugins
 plugins=(git sudo colored-man-pages zsh-syntax-highlighting zsh-autosuggestions fzf)
 
+# ROS2 auto complete
+autoload -u bashcompinit
+bashcompinit
+
 # ROS2 aliases
 alias cbr="colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release"
 alias cbrs="cbr --packages-skip"
