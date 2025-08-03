@@ -75,6 +75,16 @@ alias lz="lazygit"
 
 Apply changes: `source ~/.zshrc`
 
+**Little tips for ROS2 auto complete**
+```
+pip3 install argcomplete
+```
+
+```
+# ROS2 terminal autocomplete activate
+echo "source /opt/ros/humble/share/ros2cli/environment/ros2-argcomplete.zsh" >> ~/.zshrc
+```
+
 ---
 
 ## 2. Neovim Setup
@@ -180,8 +190,28 @@ Install plugins: Start tmux, then press `Ctrl + b` + `I`
 [Lazygit github](https://github.com/jesseduffield/lazygit)
 Lazygit provides a simple terminal UI for Git commands, making Git operations visual and intuitive without memorizing complex commands.
 
-**Key Features:**
+### Instalation
+```
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit -D -t /usr/local/bin/
+```
 
+### Install for Jetson Orin Nano
+```
+# Get the latest version of lazygit
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+
+# Download the ARM64 version for Jetson Orin Nano
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_arm64.tar.gz"
+
+# Extract and install
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit -D -t /usr/local/bin/
+```
+
+**Key Features:**
 - Visual file staging and committing
 - Easy branch switching and merging
 - Interactive rebase and conflict resolution
