@@ -49,11 +49,7 @@ Edit `~/.zshrc`:
 ZSH_THEME="af-magic"
 
 # Plugins
-plugins=(git sudo colored-man-pages zsh-syntax-highlighting zsh-autosuggestions fzf)
-
-# ROS2 auto complete
-autoload -u bashcompinit
-bashcompinit
+plugins=(git sudo zsh-syntax-highlighting zsh-autosuggestions fzf)
 
 # ROS2 aliases
 alias cbr="colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release"
@@ -75,11 +71,16 @@ alias lz="lazygit"
 
 Apply changes: `source ~/.zshrc`
 
-**Little tips for ROS2 auto complete**
+**Little tips for ROS2**
+```
+# ROS2 environment setup
+echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
+```
+
+**ROS2 autocomplete**
 ```
 pip3 install argcomplete
 ```
-
 ```
 # ROS2 terminal autocomplete activate
 echo "source /opt/ros/humble/share/ros2cli/environment/ros2-argcomplete.zsh" >> ~/.zshrc
@@ -137,6 +138,7 @@ Create `~/.tmux.conf`:
 ```bash
 # Core Options
 set -g mouse on
+set-option -g default-shell /bin/zsh
 set -g default-terminal "tmux-256color"
 set-option -sa terminal-overrides ",xterm*:Tc"
 
