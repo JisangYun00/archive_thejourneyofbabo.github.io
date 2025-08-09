@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.title %>
+title: GitHub Token Setup Guide
 draft: false
 tags:
   - "#git"
