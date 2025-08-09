@@ -52,6 +52,7 @@ longform:
     - C++ 4-4. Lets make Starcraft-2
     - C++ 4-5. The String class I created
     - C++ 4-6. Explicit and mutable keywords in classes
+    - GitHub Token Setup Guide
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
