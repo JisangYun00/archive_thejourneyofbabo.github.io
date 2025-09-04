@@ -23,7 +23,7 @@ Visit the [ROBORACER ICRA 2025 webpage](https://autodrive-ecosystem.github.io/co
 1. **AutoDRIVE Simulator**
 2. **AutoDRIVE Devkit**
 
-_Note: Local installation recommended if Docker setup encounters issues_
+_Note: **`Local installation recommended`** if Docker setup encounters issues_
 ![[autodrive-f1tenth.png|700]]
 
 ### Step 2: Setup Simulator
