@@ -37,7 +37,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Install essential plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 ```
 
 ### Configuration
@@ -49,7 +48,7 @@ Edit `~/.zshrc`:
 ZSH_THEME="af-magic"
 
 # Plugins
-plugins=(git sudo zsh-syntax-highlighting zsh-autosuggestions fzf)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 # ROS2 aliases
 alias cbr="colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release"
@@ -93,9 +92,11 @@ echo "source /opt/ros/humble/share/ros2cli/environment/ros2-argcomplete.zsh" >> 
 ### Installation
 
 ```bash
-# Install dependencies
+# Install dependencies (optional)
 sudo apt install ninja-build gettext cmake unzip curl
+```
 
+```
 # Build from source
 git clone https://github.com/neovim/neovim
 cd neovim && git checkout stable
