@@ -174,10 +174,12 @@ ros2 run autodrive_roboracer teleop_keyboard
 4. **Begin algorithm development** using the ROS 2 API
 
 
-Simulator looks like
+**Simulator looks like**  
+
 ![[autodrive_sim.png|700]]
 
-rviz diplay after connected
+**rviz diplay after connected**  
+
 ![[autodrive_dev_rviz.png|700]]
 
 
