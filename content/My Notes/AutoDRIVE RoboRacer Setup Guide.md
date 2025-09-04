@@ -185,7 +185,7 @@ ros2 run autodrive_roboracer teleop_keyboard
 
 
 ---
-### Reference
+## Reference
 [ROBORACER ICRA 2025 webpage](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025/#resources)
 
 check IP Address
