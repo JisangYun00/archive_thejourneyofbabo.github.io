@@ -139,7 +139,7 @@ Create `~/.tmux.conf`:
 ```bash
 # Core Options
 set -g mouse on
-set-option -g default-shell /bin/zsh
+# set-option -g default-shell /bin/zsh # When using zsh shell
 set -g default-terminal "tmux-256color"
 set-option -sa terminal-overrides ",xterm*:Tc"
 
